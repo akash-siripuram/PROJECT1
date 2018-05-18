@@ -1,6 +1,3 @@
-# PROJECT1
-# Auto detect text files and perform LF normalization
-* text=auto
 WEBSITE URL: www.shortto.com/qwerty
 PROBLEM:
 1.There are many people in this world who don't know how to book or to do enquiry.
