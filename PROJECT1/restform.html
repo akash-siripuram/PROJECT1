@@ -1,0 +1,159 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+    <style>
+        body
+        {
+            background-color: azure;
+        }
+         *
+    {
+        margin:0px;
+        padding:0px;
+    }
+    .nav{
+        height:6%;
+        width:100%;
+        background-color:;
+        opacity:0.6;
+        float:left;
+        position:fixed;
+        margin-top: -50px;
+    
+    }
+    .nava
+    {
+        margin-left:70px;
+        margin-top:0px;
+        font-size: 30px;
+        text-decoration-line: none;
+        
+    }
+    .spacenav{
+        height:100%;
+        width:24.5%;
+        color:white;
+        background-color:#73d3ff;
+        margin-left:15px;
+        float:left;
+        /*border:2px solid blue;*/
+        
+    }
+    .undergroundnav
+    {
+        height:100%;
+        width:24.5%;
+        color:white;
+        background-color: #73d3ff;
+        margin-left:0px;
+        float:left;
+        /*border:2px solid blue;*/
+        
+    }
+    .roadwaysnav
+    {
+        height:100%;
+        width:24.5%;
+        color:white;
+        background-color:#73d3ff;
+        margin-left:0px;
+        float:left;
+        /*border:2px solid blue;*/
+        
+    }
+    .railwaysnav
+    {
+        height:100%;
+        width:24.5%;
+        color:white;
+        background-color: #73d3ff;
+        margin-left:0px;
+        float:left;
+       /* border:2px solid blue; */
+    }
+
+
+input[type=text], select, textarea , number{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+        input[type=number] {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width:50%;
+    margin:0px auto;
+    margin-top:50px;
+}
+    
+        label
+        {
+            font-family: 'Do Hyeon', sans-serif;
+        }
+    </style>
+</head>
+    <body>
+          <div class='nav'>
+        <div class='spacenav'><a href='index.html' class='nava' >AIRWAYS</a></div>
+        <div class='undergroundnav'><a href='underground.htm' class='nava' >RAILWAYS</a></div>
+         <div class='roadwaysnav'><a href='roadways.html' class='nava' >ROADWAYS</a></div>
+        <div class='railwaysnav'><a href='seaways.html' class='nava' >SEAWAYS</a></div>
+    </div>
+        <div class="container">
+            <h1 style="text-align: center;font-family: 'Do Hyeon', sans-serif; ">Restaurant-Table-Booking</h1>
+  <form action="action_page.php">
+
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="email">No Of Members</label>
+    <input type="number" id="lname" name="members" max="1"  placeholder="Enter How Many Members..">
+
+    <label for="country"></label>
+     <label for="country">Pricing's</label>
+      <select id="country" name="prices">
+      <option value="australia">2500</option>
+      <option value="canada">3500</option>
+      <option value="usa">5000</option>
+      </select>
+    <label for="subject">Phone No</label>
+    <input type="number" id="lname" name="phoneno" max="10" min="10"  placeholder="Your Phone number..">
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+    </body>
+</html>
